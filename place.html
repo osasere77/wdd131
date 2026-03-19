@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Nigeria</title>
+    <link rel="stylesheet" href="place.css">
+    <script src="place.js" defer></script>
+</head>
+
+<body>
+
+<header>
+    <h1>Nigeria 🇳🇬</h1>
+</header>
+
+<!-- HERO IMAGE -->
+<section class="hero">
+    <picture>
+        <source srcset="images/nigeria-large.webp" media="(min-width: 768px)">
+        <img src="images/nigeria-small.webp" alt="Beautiful view of Nigeria">
+    </picture>
+</section>
+
+<!-- MAIN CONTENT -->
+<main>
+
+    <section class="info">
+        <h2>About Nigeria</h2>
+        <p>
+            Nigeria is a vibrant country in West Africa known for its diverse culture,
+            rich history, and energetic cities like Lagos and Abuja. It is the most
+            populous country in Africa and is famous for music, food, and natural beauty.
+        </p>
+    </section>
+
+    <section class="weather">
+        <h2>Weather</h2>
+        <p>Temperature: <span id="temp">28</span> °C</p>
+        <p>Wind Speed: <span id="wind">10</span> km/h</p>
+        <p>Wind Chill: <span id="windchill"></span></p>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; <span id="year"></span> | Nigeria Page</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+</footer>
+
+</body>
+</html>
