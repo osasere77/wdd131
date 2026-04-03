@@ -1,0 +1,115 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f5f7fa;
+    color: #1a1a1a;
+    line-height: 1.6;
+}
+
+/* HEADER */
+header {
+    background: #4b0082;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.2rem;
+}
+
+/* MAIN FORM CONTAINER */
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+form {
+    background: #ffffff;
+    width: 100%;
+    max-width: 500px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* LABELS */
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+/* INPUTS */
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+/* FOCUS (ACCESSIBILITY) */
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid #4b0082;
+    border-color: #4b0082;
+}
+
+/* RADIO & CHECKBOX GROUPS */
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 8px;
+}
+
+/* GROUP SPACING */
+p {
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+/* TEXTAREA */
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+/* SUBMIT BUTTON */
+input[type="submit"] {
+    margin-top: 20px;
+    background: #4b0082;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background: #360061;
+}
+
+/* FOOTER */
+footer {
+    background: #4b0082;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 20px;
+}
+
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 600px) {
+    form {
+        padding: 15px;
+    }
+}
